@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style3.css">    <title>reservation</title>
+</head>
+<body>
+<h2>Bienvenue! réserve en 3 click !! </h2>
+<div class="container">
+                <nav>
+                    <ul>
+                        <li><a class="home" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menus</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <form action="" method="post" >
+    <fieldset>
+        <legend>
+            Une table pour combien de personnes ?
+        </legend>
+        <input type="radio" id="t2" name="t" value="t2">
+        <label for="t2">table pour 2</label><br>
+
+        <input type="radio" id="t4" name="t" value="t4">
+        <label for="t4">table pour 4</label><br>
+
+        <input type="radio" id="t6" name="t" value="t6">
+        <label for="t6">table pour 6</label><br>
+    </fieldset>
+    
+</form>
+
+            
+<form action="" method="post" >
+    <fieldset>
+        <legend>
+            Choisissez votre menu
+        </legend>
+    <label for="menu">Nom du plat</label>
+    <input type="text" name="menu" id="menu"><br><br>
+    <label for="prix">Prix</label>
+    <input type="text" name="prix" id="prix"><br><br>
+    </fieldset>
+    
+</form>
+
+
+
+
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+                RESERVATION
+            </legend>
+            <input type="date" name="reserv_date" id="reserv_date"><br/> 
+            <input type="time" name="reserv_heure" id="reserv_heure"><br/> 
+            <button type="submit" name="reservation">Reserver</button><br><br>
+        </fieldset>
+
+    </form>
+
+    <button class="deco">DECONNEXION</button>
+
+</div>
+</body>
+</html>
+
+<

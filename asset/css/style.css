@@ -1,0 +1,98 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Couleurs */
+    --clr-primary: #4c4343;
+    --clr-secondary: #ebe3db;
+    --clr-tertiary: #950000;
+    --clr-black: #000;
+    --clr-white: #fff;
+
+    /* Polices */
+    --ff-titre: "Merienda";
+    --ff-default: "Athiti";
+
+    /* Taille Police */
+    --fs-default: 18px;
+    --fs-tp: 30px;
+    --fs-srb: 25px;
+    --fs-tm: 20px;
+    --fs-prix_menu: 50px;
+    --fs-text_sm: 15px;
+    --fs-titre_footer: 18px;
+    --fs-bouton: 16px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: var(--ff-default);
+    font-size: var(--fs-default);
+
+}
+body{
+    background-image: url(../../views/page/slider-01.jpg) ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+nav{
+    background-color:#ebe3db;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul li a {
+    display: block;
+    padding-block: 1rem;
+    text-decoration:none ;
+    color: var(--clr-black);
+    background-color: var(--clr-secondary);
+    
+}
+
+nav ul li a:hover {
+    color: var(--clr-white);
+    background-color: var(--clr-tertiary);
+}
+
+nav ul li a:focus {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}
+
+form{
+    text-align:center;
+    margin-top:5rem;
+    border:2px solid red;
+    background-color:#ebe3db;
+}
+
+button{
+    margin-top:3rem;
+}
+
+button:hover{
+    color: var(--clr-white);
+    background-color: var(--clr-tertiary);
+}
+
+h2{
+    text-align:center;
+    color:red;
+}
+
+legend{
+    color:red;
+}
