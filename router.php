@@ -23,6 +23,12 @@ class router
                 case 'admin':
                     $user = new \controllers\admin;
                     break;
+                case 'plats':
+                    $user = new \controllers\plats;
+                    break;
+                case 'menu' :
+                    $user = new \controllers\menu;
+                    break;
             }
         } else {
             $user = new \controllers\Auth;
